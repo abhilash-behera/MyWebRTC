@@ -523,7 +523,7 @@ public class VideoChatActivity extends AppCompatActivity{
     }*/
 
     private VideoCapturer getVideoCapturer() {
-        String[] cameraFacing={"front","back"};
+        String[] cameraFacing={/*"front",*/"back"};
         int[] cameraIndex={0,1};
         int[] cameraOrientation={0,90,180,270};
         for(String facing:cameraFacing){

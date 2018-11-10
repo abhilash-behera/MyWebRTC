@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     lintOptions{
         checkReleaseBuilds false
     }
@@ -37,5 +37,5 @@ dependencies {
     implementation 'com.android.support:cardview-v7:26.1.0'
     implementation 'io.pristine:libjingle:11139@aar'
     /*implementation 'io.pristine:libjingle_peerconnection:7113'
-    implementation 'io.pristine:libjingle_peerconnection_so:7113'*/
+        implementation 'io.pristine:libjingle_peerconnection_so:7113'*/
 }
